@@ -1,0 +1,13 @@
+# print = escreva, ou seja, aparecer na tela.
+print("olá, mundo")
+# variável guarda um dado na memória. 
+# nessa caso, a variável será chamada de soma.
+soma = 1 + 2
+print(soma)
+# aqui, temos a variável unir, em que unimos dois valores.
+unir = "1" + "2"
+print(unir)
+unirpalavras = "j" + "o" + "a" + "o"
+print(unirpalavras)
+soma = soma + 1
+print(soma)
