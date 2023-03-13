@@ -6,17 +6,13 @@ booleano = False
  
 
 print("Este é um tipo")
-
 print(type(numero_inteiro))
 
 print("Este é um tipo")
-
 print(type(numero_float))
 
 print("Este é um tipo")
-
 print(type(texto))
 
 print("Este é um tipo")
-
 print(type(booleano))
