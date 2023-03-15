@@ -10,24 +10,24 @@ Como desafio, imprima eles em ordem decrescente (20, 19, 18...)
 print("Usando laço for in range, pulando 13º andar.")
 for hotel in range (1, 21, 1):
   if 1 <= hotel < 13:
-    print(hotel, "º andar.")
+    print(str(hotel) + "º andar.")
   elif hotel >= 14:
-    print(hotel, "º andar.")
+    print(str(hotel) + "º andar.")
 
 print("-*--*--*--*--*--*--*--*--*--*--*--*--*-")
 print("Outro modo de usar for in range.")
 for num in range (1, 21):
   if num != 13:
-    print(num, "º andar.")
+    print(str(num) + "º andar.")
   
 print("-*--*--*--*--*--*--*--*--*--*--*--*--*-")
 print("Usando laço while, pulando 13º andar.")
 numero = 0
 while numero <= 20:
   if 1 <= numero < 13:
-    print(numero, "º andar.")
+    print(str(numero) + "º andar.")
   elif numero >= 14:
-    print(numero, "º andar.")
+    print(str(numero) + "º andar.")
   numero += 1
 
 print("-*--*--*--*--*--*--*--*--*--*--*--*--*-")
@@ -35,19 +35,19 @@ print("Outro modo de usar o laço while.")
 andarhotel = 0
 while andarhotel <= 20:
   if andarhotel != 13:
-    print(andarhotel, "º andar.")
+    print(str(andarhotel) + "º andar.")
   andarhotel += 1
 
 print("-*--*--*--*--*--*--*--*--*--*--*--*--*-")
 print("Ordem descrescente, pulando 13º andar.")
 for n in range (20, 0, -1):
   if n != 13:
-    print(n, "º andar.")
+    print(str(n) + "º andar.")
 
 print("-*--*--*--*--*--*--*--*--*--*--*--*--*-")
 print("Outra forma de escrever o código.")
 for andar in range (20, 0, -1):
   if andar >= 14:
-    print(andar, "º andar.")
+    print(str(andar) + "º andar.")
   elif 1 <= andar < 13:
-    print(andar, "º andar.")
+    print(str(andar) + "º andar.")
