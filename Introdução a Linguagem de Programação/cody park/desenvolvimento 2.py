@@ -10,6 +10,8 @@ Com essas informações, o programa mostrará qual é a melhor categoria de habi
 - C: Veículos com quatro rodas ou mais e com peso entre 3500 e 6000 kg;
 - D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas; 
 - E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
+
+*obs. Na categoria C, a informação correta é "peso maior que 3500 e até 6000kg"
 """
 
 rodas = int(input("Qual a quantidade de rodas do veículo? "))
