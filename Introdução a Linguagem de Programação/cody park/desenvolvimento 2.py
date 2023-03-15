@@ -19,11 +19,11 @@ peso = float(input("Qual o peso bruto em quilogramas? "))
 pessoas = int(input("Qual a quantidade de pessoas no veículo? "))
 if rodas == 2 or rodas == 3:
   print("Sua habilitação deve ser categoria A.")
-if rodas >= 4 and pessoas <= 8 and peso <= 3500:
+elif rodas >= 4 and pessoas <= 8 and peso <= 3500:
   print("Sua habilitação deve ser categoria B.")
-if rodas >= 4 and 3500 < peso <= 6000 and pessoas <= 8:
+elif rodas >= 4 and 3500 < peso <= 6000 and pessoas <= 8:
   print("Sua habilitação deve ser categoria C.")
-if rodas >= 4 and pessoas > 8:
+elif rodas >= 4 and pessoas > 8:
   print("Sua habilitação deve ser categoria D.")
-if rodas >= 4 and peso > 6000:
+elif rodas >= 4 and peso > 6000:
   print("Sua habilitação deve ser categoria E.")
