@@ -27,3 +27,5 @@ elif rodas >= 4 and pessoas > 8:
   print("Sua habilitação deve ser categoria D.")
 elif rodas >= 4 and peso > 6000:
   print("Sua habilitação deve ser categoria E.")
+else:
+  print("Veículo não pertence a nenhuma categoria listada.")
