@@ -11,7 +11,7 @@ def calcular_imc(peso, altura):
 resultado = calcular_imc(85, 1.85)
 print(f"O IMC é de {resultado:.2f}.")
      
-print("*-" * 10
+print("*-" * 10)
 
 # calcular classificação do IMC
 def calculadoraImc(peso, altura):
