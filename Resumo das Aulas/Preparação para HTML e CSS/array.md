@@ -1,17 +1,19 @@
-# O que é um array em python?
+# Array
+
+## O que é um array em python?
 
 Em Python, um array é uma estrutura de dados que pode armazenar uma coleção de valores.
 Os elementos de um array em Python são indexados a partir de zero, e podem ser acessados e modificados usando colchetes.
 
 
-# Como declarar um array?
+## Como declarar um array?
 
-lista_numeros = []                  # nome da variável, sinal de atribuição, colchetes
+lista_numeros = []                  \\ nome da variável, sinal de atribuição, colchetes
 
-lista_numeros = [3, 19, 54, -2]     # valores, separados por vírgula
+lista_numeros = [3, 19, 54, -2]     \\ valores, separados por vírgula
 
 
-# Tipos de dados em array
+## Tipos de dados em array
 
 Podemos incluir tipos de dados. Exemplo a seguir:
 
@@ -21,7 +23,7 @@ lista_strings = ["Eu", "gosto", "de", "panquecas"]
 lista_booleanos = [False, True, True, False]
 
 
-# Array de array
+## Array de array
 
 lista_listas = [[1, 2, 3], ['a', 'b', 'c']]
 
@@ -125,7 +127,7 @@ for i in range(len(lista_num)):
 print(lista_num[i])
 
 
-# Alterar um dado usando índice
+## Alterar um dado usando índice
 
 Substituir um dos elementos na lista abaixo:
 lista_frutas = ['maçã', 'banana', 'pera']
@@ -138,7 +140,7 @@ print(lista_frutas)
 Será impressoO: ['melancia', 'banana', 'pera']
 
 
-# Alterar mais de um dado usando índices
+## Alterar mais de um dado usando índices
 
 Na lista a seguir:
 lista_frutas = ['melancia', 'banana', 'pera']
@@ -160,7 +162,7 @@ print(lista_frutas)
 Será impresso: ['melancia', 'melancia', 'abacaxi']
 
 
-# Adicionar elementos
+## Adicionar elementos
 
 Usamos a função append(), que significa “anexar”. 
 Devemos escrever o nome do array ao qual queremos adicionar um item, seguido de um ponto ‘.’, o nome da função, e o item a ser adicionado dentro dos parênteses.
@@ -175,7 +177,7 @@ Será impresso: ['melancia', 'morango', 'abacaxi', 'kiwi']
 O elemento adicionado será o último na lista.
 
 
-# Remover último elemento de um array
+## Remover último elemento de um array
 
 Usamos a função pop(). Não é preciso preencher os parêntese, porque a função remove o último elemento.
 
