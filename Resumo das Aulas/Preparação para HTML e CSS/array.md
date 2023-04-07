@@ -8,10 +8,10 @@ Os elementos de um array em Python são indexados a partir de zero, e podem ser 
 
 ## Como declarar um array?
 
-lista_numeros = [ ] <br>                  
-* nome da variável, sinal de atribuição, colchetes <br>
+__lista_numeros = [ ]__ <br>                  
+<sup>nome da variável, sinal de atribuição, colchetes</sup> <br>
 lista_numeros = [3, 19, 54, -2] <br>     
-* valores, separados por vírgula
+<sup>valores, separados por vírgula</sup>
 
 
 ## Tipos de dados em array
@@ -53,7 +53,7 @@ lista_frutas = ['maçã', 'banana', 'pera']
 
 lista_frutas = ['maçã', 'banana', 'pera'] <br>
 print(lista_frutas[0]) <br>
-* o índice que quiser imprimir deve ficar entre os colchetes
+<sup>o índice que quiser imprimir deve ficar entre os colchetes.</sup>
 
 
 ## Criar variável a partir do uso de array
@@ -63,9 +63,9 @@ Criar uma variável usando um valor do array não altera o array. <br>
 lista_frutas = ['maçã', 'banana', 'pera'] <br>
 fruta_preferida = lista_frutas[2] <br>
 print(fruta_preferida) <br>
-* saída: 'pera' <br>
+<sup>saída: 'pera'</sup> <br>
 print(lista_frutas) <br>
-* saída: ['maçã', 'banana', 'pera']
+<sup>saída: ['maçã', 'banana', 'pera']</sup>
 
 
 ## Função len()
@@ -77,7 +77,7 @@ Para isso, devemos colocar o nome da variável que guarda o array como argumento
 lista_frutas = ['maçã', 'banana', 'pera'] <br>
 quantidade_frutas = len(lista_frutas) <br>
 print(quantidade_frutas) <br>                      
-* Imprimirá o número 3, pois lista_frutas tem três elementos
+<sup>Imprimirá o número 3, pois lista_frutas tem três elementos.</sup>
 
 Outra forma:
 
@@ -87,8 +87,8 @@ print(len(lista_frutas)) <br>
 Observação: existe uma diferença entre o valor do índice do último elemento de um array, e o valor da quantidade de elementos do mesmo array. <br>
 
 lista_frutas = ['maçã', 'banana', 'pera'] <br>
-* O valor do índice de 'pera', o último elemento do array, é 2 <br>
-* O valor do len(lista_frutas) é 3
+<sup>O valor do índice de 'pera', o último elemento do array, é 2.</sup> <br>
+<sup>O valor do len(lista_frutas) é 3</sup>
                                                 
                                                 
 ## Percorrer Array
@@ -142,7 +142,7 @@ Informamos que o índice 0 em lista_frutas é 'melancia'. <br>
 lista_frutas[0] = 'melancia' <br>
 print(lista_frutas) <br>
 
-Será impressoO: ['melancia', 'banana', 'pera']
+<sup>Será impressoO: ['melancia', 'banana', 'pera']</sup>
 
 
 ## Alterar mais de um dado usando índices
@@ -154,7 +154,7 @@ Para alterar dois elementos, por exemplo, podemos acessar mais de um item por ve
 lista_frutas[1], lista_frutas[2] = 'morango', 'abacaxi' <br>
 print(lista_frutas) <br>
 
-Será impresso: ['melancia', 'morango', 'abacaxi'] <br>
+<sup>Será impresso: ['melancia', 'morango', 'abacaxi']</sup> <br>
 
 Podemos atribuir o valor de um elemento do array, a outro elemento do mesmo array. <br>
 
@@ -164,7 +164,7 @@ lista_frutas = ['melancia', 'morango', 'abacaxi'] <br>
 Atribuímos ao índice 1 o mesmo valor do índice 0. <br>
 lista_frutas[1] = lista_frutas[0] <br>
 print(lista_frutas) <br>
-Será impresso: ['melancia', 'melancia', 'abacaxi']
+<sup>Será impresso: ['melancia', 'melancia', 'abacaxi']</sup>
 
 
 ## Adicionar elementos
@@ -178,7 +178,7 @@ lista_frutas = ['melancia', 'morango', 'abacaxi'] <br>
 
 lista_frutas.append('kiwi') <br>
 print(lista_frutas) <br>
-Será impresso: ['melancia', 'morango', 'abacaxi', 'kiwi'] <br>
+<sup>Será impresso: ['melancia', 'morango', 'abacaxi', 'kiwi']<s/up> <br>
 
 O elemento adicionado será o último na lista.
 
@@ -191,4 +191,4 @@ lista_frutas = ['melancia', 'morango', 'abacaxi', 'kiwi'] <br>
 
 lista_frutas.pop() <br>
 print(lista_frutas) <br>
-Será impresso: ['melancia', 'morango', 'abacaxi']
+<sup>Será impresso: ['melancia', 'morango', 'abacaxi']</sup>
