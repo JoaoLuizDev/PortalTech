@@ -15,3 +15,5 @@ Em um terminal, os comandos são digitados na linha de comando e executados pres
 O terminal é uma ferramenta importante para desenvolvedores de software, administradores de sistemas e usuários avançados que precisam executar tarefas complexas em seus sistemas operacionais. Ele é amplamente utilizado em sistemas operacionais baseados em Unix, como Linux, macOS e FreeBSD, e também está disponível em outros sistemas operacionais, incluindo Windows.
 
 Cada sistema operacional vem com um ou mais terminais instalados por padrão. No Windows, ele é o PowerShell. 
+
+No Git Bash, ao digitar 'ls', os arquivos geralmente aparecem escritos em branco e as pastas em azul escuro com uma barra à direita.
