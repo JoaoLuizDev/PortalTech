@@ -8,7 +8,7 @@ Os elementos de um array em Python são indexados a partir de zero, e podem ser 
 
 ## Como declarar um array?
 
-lista_numeros = [ ]                  * nome da variável, sinal de atribuição, colchetes <br>
+'lista_numeros = [ ]' > * nome da variável, sinal de atribuição, colchetes <br>
 lista_numeros = [3, 19, 54, -2]      * valores, separados por vírgula
 
 
