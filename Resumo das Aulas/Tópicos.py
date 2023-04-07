@@ -12,6 +12,9 @@ Tópicos abordados no curso:
                              6-
                              7-
                              8- funções
-    
+  
+ - Preparação para HTML e CSS
+                             1- Array
+                             
 """
 
