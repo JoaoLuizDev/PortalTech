@@ -8,8 +8,7 @@ Os elementos de um array em Python são indexados a partir de zero, e podem ser 
 
 ## Como declarar um array?
 
-lista_numeros = [ ]                  * nome da variável, sinal de atribuição, colchetes
-
+lista_numeros = [ ]                  * nome da variável, sinal de atribuição, colchetes <br>
 lista_numeros = [3, 19, 54, -2]      * valores, separados por vírgula
 
 
@@ -17,9 +16,9 @@ lista_numeros = [3, 19, 54, -2]      * valores, separados por vírgula
 
 Podemos incluir tipos de dados. Exemplo a seguir:
 
-lista_int = [1, 2, 3, 4]
-lista_floats = [0.3, 3.9, 89.15, 123.45]
-lista_strings = ["Eu", "gosto", "de", "panquecas"]
+lista_int = [1, 2, 3, 4] <br>
+lista_floats = [0.3, 3.9, 89.15, 123.45] <br>
+lista_strings = ["Eu", "gosto", "de", "panquecas"] <br>
 lista_booleanos = [False, True, True, False]
 
 
