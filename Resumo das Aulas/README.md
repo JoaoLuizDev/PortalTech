@@ -4,12 +4,12 @@ Diretório criado para armazenar as anotações feitas sobre o material de estud
 
 ## Tópicos
 
-- Lógica Imperativa: <br>
+### Lógica Imperativa: <br>
                     1- algoritmo; <br>
                     2- lógica; <br>
                     3- tipos de dados. <br>
  
- - Introdução à Programação: <br>
+ ### Introdução à Programação: <br>
                             1- <br>
                             2- <br>
                             3- <br>
@@ -19,6 +19,6 @@ Diretório criado para armazenar as anotações feitas sobre o material de estud
                             7- <br>
                             8- funções <br>
   
- - Preparação para HTML e CSS: <br>
+### Preparação para HTML e CSS: <br>
                              1- Array <br>
                              
