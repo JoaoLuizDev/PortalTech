@@ -125,3 +125,62 @@ for i in range(len(lista_num)):
 print(lista_num[i])
 
 
+# Alterar um dado usando índice
+
+Substituir um dos elementos na lista abaixo:
+lista_frutas = ['maçã', 'banana', 'pera']
+
+Informamos que o índice 0 em lista_frutas é 'melancia'.
+
+lista_frutas[0] = 'melancia'
+print(lista_frutas)
+
+Será impressoO: ['melancia', 'banana', 'pera']
+
+
+# Alterar mais de um dado usando índices
+
+Na lista a seguir:
+lista_frutas = ['melancia', 'banana', 'pera']
+
+Para alterar dois elementos, por exemplo, podemos acessar mais de um item por vez, separando eles por vírgulas e usando um único operador de atribuição:
+lista_frutas[1], lista_frutas[2] = 'morango', 'abacaxi'
+print(lista_frutas)
+
+Será impresso: ['melancia', 'morango', 'abacaxi']
+
+Podemos atribuir o valor de um elemento do array, a outro elemento do mesmo array.
+
+Na lista a seguir:
+lista_frutas = ['melancia', 'morango', 'abacaxi']
+
+Atribuímos ao índice 1 o mesmo valor do índice 0.
+lista_frutas[1] = lista_frutas[0]
+print(lista_frutas)
+Será impresso: ['melancia', 'melancia', 'abacaxi']
+
+
+# Adicionar elementos
+
+Usamos a função append(), que significa “anexar”. 
+Devemos escrever o nome do array ao qual queremos adicionar um item, seguido de um ponto ‘.’, o nome da função, e o item a ser adicionado dentro dos parênteses.
+Exemplo:
+
+lista_frutas = ['melancia', 'morango', 'abacaxi']
+
+lista_frutas.append('kiwi')
+print(lista_frutas)
+Será impresso: ['melancia', 'morango', 'abacaxi', 'kiwi']
+
+O elemento adicionado será o último na lista.
+
+
+# Remover último elemento de um array
+
+Usamos a função pop(). Não é preciso preencher os parêntese, porque a função remove o último elemento.
+
+lista_frutas = ['melancia', 'morango', 'abacaxi', 'kiwi']
+
+lista_frutas.pop()
+print(lista_frutas)
+Será impresso: ['melancia', 'morango', 'abacaxi']
