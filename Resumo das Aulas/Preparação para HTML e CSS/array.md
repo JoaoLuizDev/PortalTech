@@ -25,25 +25,25 @@ lista_booleanos = [False, True, True, False]
 ## Array de array
 
 lista_listas = [[1, 2, 3], ['a', 'b', 'c']]
-
+<br>
 
 # Imprimindo array na tela
 
 lista_frutas = ['maçã', 'banana', 'pera']
-print(lista_frutas)
+print(lista_frutas)                       
 
 A saída será: ['maçã', 'banana', 'pera']
 
 
 # Índices em array
 
-Para acessar apenas um item do array, cada item do vetor tem um índice, ou index em inglês.
+Para acessar apenas um item do array, cada item do vetor tem um índice, ou index em inglês. <br>
 O índice é um valor inteiro que representa cada um dos valores do array, e que começa sempre do número 0 e vai aumentando de 1 em 1.
 
 lista_frutas = ['maçã', 'banana', 'pera']
 
-'maçã' tem o índice 0
-'banana' tem o índice 1
+'maçã' tem o índice 0 <br>
+'banana' tem o índice 1 <br>
 'pera' tem o índice 2
 
 
@@ -58,21 +58,18 @@ Criar uma variável usando um valor do array não altera o array.
 
 lista_frutas = ['maçã', 'banana', 'pera']
 fruta_preferida = lista_frutas[2]
-print(fruta_preferida)
-print(lista_frutas)
-
-O primeiro print será 'pera'
-O segundo print continuará a ser o array ['maçã', 'banana', 'pera']
+print(fruta_preferida)                            # saída: 'pera'
+print(lista_frutas)                               * saída: ['maçã', 'banana', 'pera']
 
 
 # Função len()
 
-As listas podem chegar a ter um número imenso de itens. Nesses casos, como saber quantos elementos esse array possui?
-Em Python, a função len(), do inglês length (cumprimento), nos permite saber a quantidade de itens num array.
+As listas podem chegar a ter um número imenso de itens. Nesses casos, como saber quantos elementos esse array possui? <br>
+Em Python, a função len(), do inglês length (cumprimento), nos permite saber a quantidade de itens num array. <br>
 Para isso, devemos colocar o nome da variável que guarda o array como argumento.
 
-lista_frutas = ['maçã', 'banana', 'pera']
-quantidade_frutas = len(lista_frutas)
+lista_frutas = ['maçã', 'banana', 'pera'] <br>
+quantidade_frutas = len(lista_frutas) <br>
 print(quantidade_frutas)                       # Imprimirá o número 3, pois lista_frutas tem três elementos
 
 Outra forma:
