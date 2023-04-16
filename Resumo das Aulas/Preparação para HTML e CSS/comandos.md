@@ -17,3 +17,6 @@
 | `git branch`  | Git Branch (Git ramificar)	  | Listar, criar ou excluir ramificações (branches) do repositório Git.|
 | `git checkout`| Git Checkout (Git verificar)	  | Alternar para uma ramificação específica do repositório Git.        |
 | `git merge`   | Git Merge (Git mesclar)	      | Mesclar uma ramificação do repositório Git com outra.               |
+| `git branch`   | 	      | Exibe a lista de branches disponíveis e destaca a branch atual               |
+| `git branch`   | nome-da-branch	      | Cria uma nova branch               |
+| `git checkout`   | nome-da-branch	      | Trocar o HEAD, ou ponteiro, para a branch indicada               |
