@@ -1,5 +1,4 @@
-INSTRUÇÕES DO PROJETO  
-A cidade do Recife é uma das mais famosas do Nordeste, ela possui diversos pontos turísticos e um deles é o Marco Zero.  
+INSTRUÇÕES DO PROJETO  A cidade ~~do Recife~~ de Ubatuba é uma das mais famosas do ~~Nordeste~~ litoral norte de SP, ela possui diversos pontos turísticos e um deles é ~~a Marco Zero~~ Ilha Anchieta.
 Sabendo disso, crie uma página HTML, falando sobre esse ponto turístico de acordo com os seguintes pré-requisitos:  
 
  1. A página precisa ter cabeçalho, conteúdo e rodapé;  
