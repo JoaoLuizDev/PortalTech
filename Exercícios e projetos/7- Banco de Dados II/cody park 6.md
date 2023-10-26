@@ -6,6 +6,7 @@ cada três meses. Pensando nisso, cite pelo menos três métodos para melhorar e
 que outros desenvolvedores possam analisá-lo.**
 
 Resposta:
+
 **- Comprimento e Complexidade:** Senhas mais longas tendem a ser mais seguras. Use pelo menos 12 caracteres. Inclua uma combinação de letras maiúsculas, 
 letras minúsculas, números e caracteres especiais, como !, @, #, $, e &. Evite usar palavras comuns ou sequências previsíveis, como "123456" 
 ou "password".
